@@ -5,7 +5,8 @@
   "author": "asvny <annamalai.saro@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:atlassian-css": "TAILWIND_CONFIG=atlassian postcss --config atlassian/postcss.config.js atlassian/atlassian.css -o atlassian/atlassian.min.css"
+    "build:atlassian-css": "TAILWIND_CONFIG=atlassian postcss --config atlassian/postcss.config.js atlassian/atlassian.css -o atlassian/atlassian.min.css",
+    "build:netlify-css": "TAILWIND_CONFIG=netlify postcss --config netlify/postcss.config.js netlify/netlify.css -o netlify/netlify.min.css"
   },
   "dependencies": {
     "tailwindcss": "^1.1.3"
