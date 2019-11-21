@@ -1,0 +1,1 @@
+module.exports = require(`./${process.env.TAILWIND_CONFIG}/tailwind.config.js`)
