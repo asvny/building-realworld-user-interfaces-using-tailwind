@@ -1,0 +1,689 @@
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spotify</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="./spotify.min.css" rel="stylesheet" />
+    <link href="./icon-fonts.css" rel="stylesheet" />
+  </head>
+
+  <body class="flex flex-col font-sans h-full leading-snug overflow-hidden">
+    <section class="flex flex-1 overflow-hidden">
+      <aside class="bg-black flex flex-col flex-shrink-0 overflow-auto w-1/6">
+        <div class="ml-6 my-6 text-white">
+          <svg viewBox="0 0 1134 340" class="" height="40" width="130">
+            <title>Spotify</title>
+            <path
+              fill="currentColor"
+              d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"
+            ></path>
+          </svg>
+        </div>
+
+        <nav>
+          <a
+            href=""
+            class="block flex items-end opacity-75 px-6 py-2 relative text-white hover:opacity-100 transition-opacity-200"
+          >
+            <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M 256.274 60.84 L 84.324 166.237 L 84.324 443.063 L 193.27 443.063 L 193.27 293.73 L 320.228 293.73 L 320.228 443.063 L 428.222 443.063 L 428.222 165.476 L 256.274 60.84 Z M 256.274 35.95 L 448.452 149.145 L 448.452 464.395 L 300 464.395 L 300 315.062 L 213.499 315.062 L 213.499 464.395 L 64.095 464.395 L 64.095 150.161 L 256.274 35.95 Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span class="font-medium hover:opacity-100 ml-4 relative text-sm">Home</span>
+          </a>
+          <a
+            href=""
+            class="block flex items-end opacity-75 px-6 py-2 relative text-white hover:opacity-100 transition-opacity-200"
+          >
+            <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="font-medium hover:opacity-100 ml-4 relative text-sm">Search</span>
+          </a>
+          <a
+            href=""
+            class="block flex items-end opacity-75 px-6 py-2 relative text-white hover:opacity-100 transition-opacity-200"
+          >
+            <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span class="font-medium hover:opacity-100 ml-4 relative text-sm">Your Library</span>
+          </a>
+        </nav>
+
+        <h2 class="ml-6 mt-6 opacity-50 text-white text-xs tracking-widest uppercase">
+          RECENTLY PLAYED
+        </h2>
+        <ul class="ml-6 mt-4">
+          <li class="block">
+            <h3 class="font-hairline opacity-50 text-sm text-white">Gully Boy</h3>
+            <p class="opacity-50 pt-px text-white text-xs tracking-widest uppercase">Album</p>
+          </li>
+          <li class="block mt-3">
+            <h3 class="opacity-50 text-sm text-white">Lukka Chuppi</h3>
+            <p class="opacity-50 pt-px text-white text-xs tracking-widest uppercase">Playlist</p>
+          </li>
+          <li class="block mt-3">
+            <h3 class="opacity-50 text-sm text-white">Mega Hit Mix</h3>
+            <p class="opacity-50 pt-px text-white text-xs tracking-widest uppercase">Playlist</p>
+          </li>
+          <li class="block mt-3">
+            <h3 class="opacity-50 text-sm text-white">Nick Jonas Hits</h3>
+            <p class="opacity-50 pt-px text-white text-xs tracking-widest uppercase">Playlist</p>
+          </li>
+        </ul>
+
+        <div class="border-gray-700 border-t flex items-center mt-auto mx-4 pb-6 pt-4 px-3">
+          <img
+          src="https://profile-images.scdn.co/images/userprofile/default/478869c434c24da53af50092e2f597b86b9d290e"
+          alt="user-profile pic" class="object-cover rounded-full" height="28" width="28" "="">
+          <span class="pl-4 text-sm text-white">Annamalai</span>
+        </div>
+      </aside>
+      <main class="flex-1 overflow-auto bg-gray-900">
+        <header class="overflow-y-hidden pb-12 pt-24 relative">
+          <div
+            class="absolute header-image left-0 top-0"
+            style='background-image: url("https://i.scdn.co/image/ac1c74eb52cc495e0997621b76b20c1ef43af95a");'
+          ></div>
+          <div class="mt-1 pl-10 relative">
+            <span class="opacity-50 text-white text-xs tracking-widest"
+              >55,819,523 MONTHLY LISTENERS</span
+            >
+            <h1 class="font-extrabold mt-1 text-6xl text-white">Camila Cabello</h1>
+            <div class="mt-6">
+              <button
+                class="bg-green-400 bg-green-500 border-2 border-green-500 h-10 hover:bg-green-400 hover:border-green-400 hover:scale-up px-12 r rounded-pill text-white text-xs tracking-widest transition-transform-100 uppercase"
+              >
+                Play
+              </button>
+              <button
+                class="bg-black-alpha-400 border-2 border-white-alpha-700 h-10 hover:border-white hover:scale-up ml-2 px-12 r rounded-pill text-white text-white-alpha-700 text-xs tracking-widest transition-transform-100 uppercase"
+              >
+                Follow
+              </button>
+            </div>
+
+            <div class="mt-12 flex">
+              <a href="" class="relative text-white text-xs tracking-widest uppercase"
+                >Overview
+                <span
+                  class="-mb-1 absolute bg-green-500 bottom-0 h-2px left-0 top w-1/3 x-center"
+                ></span
+              ></a>
+              <a
+                href=""
+                class="hover:opacity-100 ml-6 opacity-50 text-white text-xs tracking-widest uppercase"
+                >Related Artists</a
+              >
+              <a
+                href=""
+                class="hover:opacity-100 ml-6 opacity-50 text-white text-xs tracking-widest uppercase"
+                >About</a
+              >
+            </div>
+          </div>
+        </header>
+
+        <section class="mx-10 relative text-white">
+          <h2 class="font-extrabold text-4xl">Popular</h2>
+          <ul class="mt-4">
+            <li class="flex hover:bg-white-alpha-100 items-center my-1 px-3 rounded w-full">
+              <div>
+                <svg viewBox="0 0 225 225" class="opacity-50 fill-current w-14px h-14px text-white">
+                  <defs></defs>
+                  <path
+                    d="M111 192c4-7 6-14 6-21V29c6 7 14 14 22 18 15 7 15 18 15 30v1a8 8 0 0015 1v-2c0-9 1-31-23-43-12-6-26-24-30-31h-1V2l-2-1-2-1h-1-2-1v1h-1-1v1h-1l-1 2-1 2v138c-7-4-15-7-25-7-5 0-11 1-16 3-24 7-38 30-32 49 5 15 20 25 39 25a53 53 0 0043-22zm-13-8c-4 6-11 11-19 13-4 2-7 2-11 2-12 0-22-5-24-14-4-12 6-26 21-31l12-2c12 0 21 6 24 14 2 6 1 12-3 18z"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/93de84650354b3a8436a893332b436cf3bb000d0"
+                alt=""
+                width="52"
+                height="52"
+                class="ml-4 p-1 rounded-lg"
+              />
+              <span class="ml-8">Señorita</span>
+              <span class="ml-auto opacity-50">3:10</span>
+            </li>
+            <li class="flex hover:bg-white-alpha-100 items-center my-1 px-3 rounded w-full">
+              <div>
+                <svg viewBox="0 0 225 225" class="opacity-50 text-white fill-current h-14px w-14px">
+                  <defs></defs>
+                  <path
+                    d="M111 192c4-7 6-14 6-21V29c6 7 14 14 22 18 15 7 15 18 15 30v1a8 8 0 0015 1v-2c0-9 1-31-23-43-12-6-26-24-30-31h-1V2l-2-1-2-1h-1-2-1v1h-1-1v1h-1l-1 2-1 2v138c-7-4-15-7-25-7-5 0-11 1-16 3-24 7-38 30-32 49 5 15 20 25 39 25a53 53 0 0043-22zm-13-8c-4 6-11 11-19 13-4 2-7 2-11 2-12 0-22-5-24-14-4-12 6-26 21-31l12-2c12 0 21 6 24 14 2 6 1 12-3 18z"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/c2fe77a00e77c9d5fc25a4c99b960705561f9e21"
+                alt=""
+                width="52"
+                height="52"
+                class="ml-4 p-1 rounded-lg"
+              />
+              <span class="ml-8">Liar</span>
+              <span class="ml-auto opacity-50">3:27</span>
+            </li>
+            <li class="flex hover:bg-white-alpha-100 items-center my-1 px-3 rounded w-full">
+              <div>
+                <svg viewBox="0 0 225 225" class="opacity-50 fill-current w-14px h-14px text-white">
+                  <defs></defs>
+                  <path
+                    d="M111 192c4-7 6-14 6-21V29c6 7 14 14 22 18 15 7 15 18 15 30v1a8 8 0 0015 1v-2c0-9 1-31-23-43-12-6-26-24-30-31h-1V2l-2-1-2-1h-1-2-1v1h-1-1v1h-1l-1 2-1 2v138c-7-4-15-7-25-7-5 0-11 1-16 3-24 7-38 30-32 49 5 15 20 25 39 25a53 53 0 0043-22zm-13-8c-4 6-11 11-19 13-4 2-7 2-11 2-12 0-22-5-24-14-4-12 6-26 21-31l12-2c12 0 21 6 24 14 2 6 1 12-3 18z"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d0000b273a53a148d92ce7afa20229e49"
+                alt=""
+                height="52"
+                width="52"
+                class="ml-4 p-1 rounded-lg"
+              />
+              <span class="ml-8">South of the Border (feat. Camila Cabello &amp; Cardi B)</span>
+              <span class="ml-auto opacity-50">3:24</span>
+            </li>
+            <li class="flex hover:bg-white-alpha-100 items-center my-1 px-3 rounded w-full">
+              <div>
+                <svg viewBox="0 0 225 225" class="opacity-50 fill-current w-14px h-14px text-white">
+                  <defs></defs>
+                  <path
+                    d="M111 192c4-7 6-14 6-21V29c6 7 14 14 22 18 15 7 15 18 15 30v1a8 8 0 0015 1v-2c0-9 1-31-23-43-12-6-26-24-30-31h-1V2l-2-1-2-1h-1-2-1v1h-1-1v1h-1l-1 2-1 2v138c-7-4-15-7-25-7-5 0-11 1-16 3-24 7-38 30-32 49 5 15 20 25 39 25a53 53 0 0043-22zm-13-8c-4 6-11 11-19 13-4 2-7 2-11 2-12 0-22-5-24-14-4-12 6-26 21-31l12-2c12 0 21 6 24 14 2 6 1 12-3 18z"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/e50316c79e44474c34e31aba724986563321290a"
+                alt=""
+                width="52"
+                height="52"
+                class="ml-4 p-1 rounded-lg"
+              />
+              <span class="ml-8">Easy</span>
+              <span class="ml-auto opacity-50">3:14</span>
+            </li>
+            <li class="flex hover:bg-white-alpha-100 items-center my-1 px-3 rounded w-full">
+              <div>
+                <svg viewBox="0 0 225 225" class="opacity-50 fill-current w-14px h-14px text-white">
+                  <defs></defs>
+                  <path
+                    d="M111 192c4-7 6-14 6-21V29c6 7 14 14 22 18 15 7 15 18 15 30v1a8 8 0 0015 1v-2c0-9 1-31-23-43-12-6-26-24-30-31h-1V2l-2-1-2-1h-1-2-1v1h-1-1v1h-1l-1 2-1 2v138c-7-4-15-7-25-7-5 0-11 1-16 3-24 7-38 30-32 49 5 15 20 25 39 25a53 53 0 0043-22zm-13-8c-4 6-11 11-19 13-4 2-7 2-11 2-12 0-22-5-24-14-4-12 6-26 21-31l12-2c12 0 21 6 24 14 2 6 1 12-3 18z"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4"
+                alt=""
+                width="52"
+                height="52"
+                class="ml-4 p-1 rounded-lg"
+              />
+              <span class="ml-8">Havana (feat. Young Thug)</span>
+              <span class="ml-auto opacity-50">3:37</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="mt-12 mx-10 relative text-white">
+          <h2 class="font-extrabold mb-4 text-4xl">Albums</h2>
+
+          <div class="flex">
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Camila</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-12 mx-10 relative text-white">
+          <h2 class="font-extrabold mb-4 text-4xl">
+            Singles and EPs
+          </h2>
+          <div class="flex flex-wrap">
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/e8ac41fadf91083b24fe8f44a9f16681737bfa27"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Living Proof</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/e50316c79e44474c34e31aba724986563321290a"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Easy</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/fae81d10887bcf09efcdfd191766365dca26cab0"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Cry for Me</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/086a8075a2495158022096d06f7b42746d9e24a6"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              &gt;
+              <span class="block pt-3">Shameless</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/c2fe77a00e77c9d5fc25a4c99b960705561f9e21"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Liar</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="mb-10 pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2731c2e5a8e25a9af5016e8522c"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3"
+                >South of the Border (feat. Camila Cabello &amp; Cardi B)</span
+              >
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2734d5c8629ac5d8b28976263f8"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Find U Again (MK Remix)</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/848e61858fa76a1a1e262286a53c937dfba85237"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Señorita</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b27318911141cdfc2a1c59169ade"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Find U Again (feat. Camila Cabello)</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/29c0cfb7040a802b0d06b6514fd16bff3551e6c8"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Mi Persona Favorita</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b2735066decc83a9299c66fb1705"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Consequences (orchestra)</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+            <div class="pr-4 relative text-center text-sm w-1/6">
+              <div class="relative">
+                <img
+                  src="https://i.scdn.co/image/ab67616d0000b273c977780a05c2fd140690dd57"
+                  alt=""
+                  class="rounded"
+                />
+                <div
+                  class="absolute bg-black-alpha-400 flex h-full hover:opacity-100 items-center justify-center left-0 opacity-0 top-0 w-full"
+                >
+                  <button
+                    class="border border-white flex h-16 hover:scale-up items-center justify-center rounded-full transition-transform-100 w-16"
+                  >
+                    <svg class="ml-2 w-1/2" viewBox="0 0 85 100" style="/* width: 1; */">
+                      <path
+                        fill="currentColor"
+                        d="M81 44.6c5 3 5 7.8 0 10.8L9 98.7c-5 3-9 .7-9-5V6.3c0-5.7 4-8 9-5l72 43.3z"
+                      >
+                        <title>PLAY</title>
+                      </path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <span class="block pt-3">Havana (Live)</span>
+              <span class="block  pt-1">
+                <a href="" class="hover:underline opacity-50 hover:opacity-100">Camila Cabello</a>
+              </span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </section>
+
+    <section class="bg-gray-700 border-gray-700 border-t flex h-20">
+      <div class="flex items-center w-1/3">
+        <img
+          src="https://i.scdn.co/image/ab67616d0000b2736eb0b9e73adcf04e4ed3eca4"
+          alt=""
+          width="64"
+          height="64"
+          class="ml-4 p-1 rounded rounded-lg"
+        />
+        <div class="ml-4 text-white">
+          <span class="block text-sm">Havana</span>
+          <span class="block opacity-65 pt-px text-xs">Camila Cabello (feat. Young Thug)</span>
+        </div>
+      </div>
+      <div class="py-3 text-lg text-white-alpha-400 w-1/3">
+        <div class="flex justify-center pb-2">
+          <button aria-label="Shuffle" class="hover:text-white-alpha-800">
+            <i class="icon-shuffle"></i>
+          </button>
+          <button aria-label="prev" class="hover:text-white-alpha-800 mx-6">
+            <i class="icon-previous"></i>
+          </button>
+          <button aria-label="play">
+            <div
+              class="border border-white-alpha-600 flex h-8 hover:scale-up hover:text-white-alpha-800 items-center justify-center rounded-full transition-transform-100 w-8"
+            >
+              <i class="icon-play relative ml-px"></i>
+            </div>
+          </button>
+          <button aria-label="next" class="hover:text-white-alpha-800 mx-6">
+            <i class="icon-next"></i>
+          </button>
+          <button aria-label="next" class="hover:text-white-alpha-800">
+            <i class="icon-loop"></i>
+          </button>
+        </div>
+
+        <div class="flex items-center text-xs">
+          <span>0.00</span>
+          <div class="h-1 mx-4 rounded-lg w-full bg-white-alpha-200"></div>
+          <span>3.15</span>
+        </div>
+      </div>
+      <div class="flex items-center justify-end pr-4 w-1/3 text-white-alpha-600">
+        <i class="icon-volume-high"></i>
+        <div class="h-1 mx-2 relative rounded-lg w-1/5 bg-green-400">
+          <span class="absolute bg-white h-3 right-0 rounded-full shadow-md w-3 y-center"></span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

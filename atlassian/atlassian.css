@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input::-webkit-input-placeholder {
+  color: rgb(122, 134, 154);
+}

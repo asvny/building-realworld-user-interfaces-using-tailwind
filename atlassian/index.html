@@ -6,39 +6,17 @@
     <title>Atlassian Demo</title>
   </head>
   <body class="bg-indigo font-sans">
-    <div class="mt-20 mx-auto w-1/5">
-      <img src="./images/logo.svg" />
+    <div class="mt-10">
+      <img src="./images/logo.svg" width="230" class="mx-auto" />
     </div>
-    <h1 class="font-medium mb-4 mt-12 text-2xl text-blue-100 text-center">
-      Sign up for your account
-    </h1>
-    <p class="mx-auto text-center text-blue-100  text-xs w-1/5">
-      By signing up, you confirm that you’ve read and accepted our <strong>User Notice</strong> and
-      <strong>Privacy Policy</strong>.
-    </p>
-    <div class="bg-white mt-10 mx-auto p-12 rounded w-400px">
+    <div class="bg-white font-medium mt-10 mx-auto px-10 py-6 rounded w-400px text-gray-400">
+      <h1 class="font-semibold mb-6 text-center">Sign up for your account</h1>
       <form class="m-0">
-        <div>
-          <button
-            class="border h-10 inline-flex items-center justify-center rounded-sm shadow-md text-gray-700 w-full"
-          >
-            <img
-              src="https://aid-frontend.prod.atl-paas.net/atlassian-id/front-end/3.4.2/static/media/google-logo.c21ca9d1.svg"
-              class="mr-3 w-4"
-            />
-            <span class="font-semibold">
-              Continue with Google
-            </span>
-          </button>
-        </div>
-        <div class="my-4 text-center text-gray-500 text-xs">
-          OR
-        </div>
         <div>
           <input
             placeholder="Enter email address"
             type="text"
-            class="bg-gray-100 block border-2 text-sm focus:bg-white focus:shadow-outline h-10 hover:bg-gray-200 mb-6 outline-none pl-3 rounded w-full focus:shadow-none focus:border-ocean"
+            class="bg-gray-100 block border-2 focus:bg-white focus:border-ocean focus:shadow-none focus:shadow-outline font-sans h-10 hover:bg-gray-200 mb-6 outline-none pl-3 rounded text-sm w-full"
           />
         </div>
         <div>
@@ -59,8 +37,6 @@
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            focusable="false"
-            role="presentation"
           >
             <g fill="currentColor" fill-rule="evenodd">
               <path
@@ -70,26 +46,67 @@
             </g>
           </svg>
 
-          <ul class="inline-flex mb-12 mt-1 w-full">
-            <li class="bg-gray-300 mr-1 w-1/5 h-1"></li>
-            <li class="bg-gray-300 mr-1 w-1/5 h-1"></li>
-            <li class="bg-gray-300 mr-1 w-1/5 h-1"></li>
-            <li class="bg-gray-300 mr-1 w-1/5 h-1"></li>
-            <li class="bg-gray-300 mr-1 w-1/5 h-1"></li>
+          <ul class="inline-flex mt-1 w-full">
+            <li class="bg-gray-300 h-2px mr-1 w-1/5"></li>
+            <li class="bg-gray-300 h-2px mr-1 w-1/5"></li>
+            <li class="bg-gray-300 h-2px mr-1 w-1/5"></li>
+            <li class="bg-gray-300 h-2px mr-1 w-1/5"></li>
+            <li class="bg-gray-300 h-2px mr-1 w-1/5"></li>
           </ul>
+        </div>
+
+        <div class="font-normal mb-6 mt-4 text-xs">
+          By signing up, you confirm that you’ve read <br />
+          and accepted our
+          <a href="" class="text-blue-500">User Notice</a>
+          and
+          <a href="" class="text-blue-500">Privacy Policy</a>.
         </div>
         <button class="bg-indigo border border-indigo h-10 rounded text-white w-full">
           Sign Up
         </button>
-        <p class="mt-10 text-center text-gray-600 text-xs">
-          This page is protected by reCAPTCHA and the Google
-          <span class="text-indigo">Privacy Policy</span> and
-          <span class="text-indigo">Terms of Service</span> apply
-        </p>
+
+        <div class="my-4 text-center text-gray-500 text-xs">
+          OR
+        </div>
+
+        <div>
+          <button
+            class="border h-10 inline-flex items-center justify-center rounded-sm shadow-md text-gray-700 w-full"
+          >
+            <img
+              src="https://aid-frontend.prod.atl-paas.net/atlassian-id/front-end/3.4.2/static/media/google-logo.c21ca9d1.svg"
+              class="mr-3 w-4"
+            />
+            <span class="font-semibold text-sm">
+              Continue with Google
+            </span>
+          </button>
+        </div>
+        <div class="mt-4">
+          <button
+            class="border h-10 inline-flex items-center justify-center rounded-sm shadow-md text-gray-700 text-sm w-full"
+          >
+            <img
+              src="https://aid-frontend.prod.atl-paas.net/atlassian-id/front-end/5.0.76/static/media/microsoft-logo.319d9b9a.svg"
+              class="mr-3 w-4"
+            />
+            <span class="font-semibold">
+              Continue with Microsoft
+            </span>
+          </button>
+        </div>
+
+        <hr class="my-5" />
+
+        <a href="" class="block font-normal hover:underline text-center text-sm text-blue-500"
+          >Already have an Atlassian account? Log in</a
+        >
       </form>
     </div>
-    <a class="block cursor-pointer hover:underline my-12 text-blue-100 text-center text-sm w-full">
-      Already have an Atlassian account? Log in
-    </a>
+
+    <p class="mb-20 mt-6 mx-auto text-center text-w text-xs w-400px text-blue-100">
+      This page is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply
+    </p>
   </body>
 </html>

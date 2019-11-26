@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-image {
+  width: calc(100% + 400px);
+  height: 100%;
+  background-size: cover;
+  margin-left: -300px;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.header-image:after {
+  right: 0;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(transparent -30%, #121212);
+}
