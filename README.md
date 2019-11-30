@@ -44,9 +44,28 @@ to achieve the following example
   `) }
 </ul>
 
-// Outcome Rachel Green --------------- Monica Geller --------------- Joey Tribbiani ---------------
-Chandler Bing --------------- (This should not be displayed) Expected Rachel Green ---------------
-Monica Geller --------------- Joey Tribbiani --------------- Chandler Bing
+<!-- Outcome
+
+Rachel Green 
+---------------
+Monica Geller 
+---------------
+Joey Tribbiani 
+---------------
+Chandler Bing  
+--------------- (This should not be displayed)
+
+Expected
+
+Rachel Green 
+---------------
+Monica Geller 
+---------------
+Joey Tribbiani 
+---------------
+Chandler Bing
+
+-->
 ```
 
 - When you have to deal with states like hover, active, focus etc., (_but luckly Tailwind.css came with a solution_)
