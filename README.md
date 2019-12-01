@@ -71,6 +71,11 @@ Chandler Bing
 - When you have to deal with states like hover, active, focus etc., (_but luckly Tailwind.css came with a solution_)
 - Responsive design - You get to add a _lot_ of classes and becomes quite unfamiliar what the element does at a single glance.
 
+## Why ?
+
+I actually built this as a reference for another project but decided to push this code also to github, so it might
+help someone in this world. :)
+
 ## Author
 
 Annamalai Saravanan
