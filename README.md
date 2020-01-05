@@ -1,7 +1,5 @@
 # Building-real-user-interfaces-using-tailwind
 
-<br/>
-<br/>
 Shopify - https://realworld-ui-tailwind.netlify.com/shopify/ 
 <br/>
 Netlify - https://realworld-ui-tailwind.netlify.com/netlify/
