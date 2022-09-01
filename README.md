@@ -4,10 +4,10 @@
 
 The websites that I have tried to replicate are:
 
-- [Shopify](https://realworld-ui-tailwind.netlify.com/shopify/)
-- [Spotify](https://realworld-ui-tailwind.netlify.com/spotify/)
-- [Netlify](https://realworld-ui-tailwind.netlify.com/netlify/)
-- [Atlassian](https://realworld-ui-tailwind.netlify.com/atlassian/)
+- [Shopify](https://building-realworld-user-interfaces-using-tailwind.pages.dev/shopify/)
+- [Spotify](https://building-realworld-user-interfaces-using-tailwind.pages.dev/spotify/)
+- [Netlify](https://building-realworld-user-interfaces-using-tailwind.pages.dev/netlify/)
+- [Atlassian](https://building-realworld-user-interfaces-using-tailwind.pages.dev/atlassian/)
 
 <p float="left">
   <a href="https://realworld-ui-tailwind.netlify.com/shopify/" target="_blank"><img alt="Shopify" src="https://raw.githubusercontent.com/asvny/building-realworld-user-interfaces-using-tailwind/master/img/shopify.png" width="49%" /></a>
